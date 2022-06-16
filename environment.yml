@@ -1,0 +1,11 @@
+name: climetlab-fields-compression
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - jupyterlab
+    - climetlab
+    - pytest
+    - flake8
