@@ -9,6 +9,12 @@ conda env create -f environment.yml
 
 Then activate with `conda activate climetlab-fields-compression`.
 
+## Installing
+
+```
+pip install -e .
+```
+
 ## Testing
 
 ```
