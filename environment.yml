@@ -2,7 +2,7 @@ name: climetlab-fields-compression
 channels:
   - defaults
 dependencies:
-  - python=3.9
+  - python
   - pip
   - pip:
     - jupyterlab
