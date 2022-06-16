@@ -1,0 +1,3 @@
+include README.md
+include LICENSE.txt
+include climetlab_fields_compression/expver-hplp.json
