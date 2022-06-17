@@ -13,10 +13,19 @@ Each dataset contains uncompressed IEEE-754 Standard (1985) 64-bit floating-poin
 | 4   |                   | Wave           |
 
 
+## Prerequisites
+
+- Linux, Windows, or macOS
+- Python (3.7 or later)
+
+
 ## How to install
 
 ```
-pip install climetlab-fields-compression
+# TODO: Publish on PyPI
+git clone https://github.com/ecmwf-lab/climetlab-fields-compression.git
+cd climetlab-fields-compression
+pip install .
 ```
 
 
