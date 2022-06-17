@@ -48,7 +48,8 @@ class Main(Dataset):
         mars_request = patch_mars_request(data=mars_config, model=model,
             levtype=levtype, levels=levels, param=param, step=step)
 
-        self.source = cml.load_source("mars", **mars_request)
+        expver = 'hplp'
+        self.source = cml.load_source("ecmwf-research-experiment", expver,  mars_request)
 
 
 def validate_mars_request(data, model, levtype, levels, param, step):
